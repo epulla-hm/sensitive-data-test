@@ -15,6 +15,8 @@ brew install bfg
 bfg --replace-text secrets.txt
 ```
 
+Above command seems to replace the credentials with `REMOVED`.
+
 3. Push to the branch: 
 
 ```bash
