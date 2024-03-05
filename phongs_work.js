@@ -5,9 +5,6 @@ let fibonacci = function(n) {
     return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-// test with python: 
-// results = [fibonacci_of(n) for n in range(15)]
-
 console.log("Results:");
 for (let i = 0; i < 15; i++) {
     console.log(fibonacci(i));
