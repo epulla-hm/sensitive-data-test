@@ -12,7 +12,7 @@ brew install bfg
 2. Replace text listed in `your_leaked_secrets` file using:
 
 ```bash
-bfg --replace-text secrets.txt
+bfg --replace-text {secrets_file}
 ```
 
 Above command seems to replace the credentials with `REMOVED`.
