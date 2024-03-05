@@ -1,0 +1,54 @@
+***REMOVED***
+	{
+	***REMOVED***
+	***REMOVED***
+	    "host": "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+	    "login": "randomusername12343",
+	    "password": "randompassword934924",
+	***REMOVED***
+	      "client_id": "client_id_secret_1233412",
+	      "client_secret": "client_secret_1234321",
+	***REMOVED***
+	***REMOVED***
+	***REMOVED***
+	***REMOVED***
+	},
+	{
+	***REMOVED***
+	***REMOVED***
+	    "host": "https://yyyyyyyyyyyyyyyyyyy",
+	    "login": "randomusername9876352",
+	    "password": "randompassword1234324",
+	***REMOVED***
+	      "endpoint": "endpoint/that/is/a/secret",
+	***REMOVED***
+	      "scope": "random.scope1 random.scope2 random.scope3 random.scope4 random.scope5 random.scope6 random.scope7 random.scope8"
+		}
+	},
+	{
+		"conn_id": "snowflake_allocation_engine_prod",
+		"conn_type": "Snowflake",
+		"host": "snowflake_secret_host_12342",
+		"schema": "IMPORTANT_SCHEMA",
+		"login": "randomuser4893289234",
+		"password": "randompassword1234342",
+		"extra": {
+			"account": "randomaccount1233412",
+			"warehouse": "RANDOM_WAREHOUSE",
+			"database": "RANDOM_DATABASE"
+		}
+	},
+	{
+		"conn_id": "truv_okta_token_prod",
+		"conn_type": "http",
+		"host": "https://wwwwwwwwwwwwwwwwwww",
+		"login": "randomuser1443213421",
+		"password": "randompassword49832894",
+		"extra": {
+			"endpoint": "/endpoint/which/is/a/secret",
+			"grant_type": "client_credentials",
+			"scope": "random.scope1"
+		}
+	}
+***REMOVED***
+
