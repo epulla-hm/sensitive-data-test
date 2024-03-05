@@ -6,7 +6,9 @@ def fibonacci(n):
 
 def main():
     results = [fibonacci(n) for n in range(15)]
-    print(f"Results: {results}")
+    print("Results")
+    for result in results:
+        print(result)
 
 
 if __name__ == "__main__":
