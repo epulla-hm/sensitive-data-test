@@ -9,6 +9,15 @@
 brew install bfg
 ```
 
-2. bfg --replace-text secrets.txt
-3. git push --force
+2. Replace text listed in `your_leaked_secrets` file using:
+
+```bash
+bfg --replace-text secrets.txt
+```
+
+3. Push to the branch: 
+
+```bash
+git push --force
+```
 
