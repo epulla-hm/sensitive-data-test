@@ -5,5 +5,5 @@ def fibonacci_of(n):
 
 results = [fibonacci_of(n) for n in range(15)]
 
-print(f"Results: {results}")
+print(f"Results:\n{results}")
 
