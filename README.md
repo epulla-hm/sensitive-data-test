@@ -33,19 +33,25 @@ pick 310154e Update README formatting and add blame
 pick a5f4a0d Add cat-file
 ```
 
-5. Now you are in your commit. Go to the file you want to modify, do your changes and save it.
-
-6. Execute the following commands:
+5. Now you are in your commit. Execute the following command
 
 ```bash
 git commit --amend
+```
+
+6. Then, go to the file you want to modify, do your changes and save it.
+
+7. Execute the following commands:
+
+```bash
 git add {your_modified_file}
+git commit --amend
 git rebase --continue
 ```
 
 If you have several changes from `pick` to `e`, you will continue to modify commit by commit until you're done.
 
-7. Finally, git push to the branch:
+8. Finally, git push to the branch:
 
 ```bash
 git push --force
