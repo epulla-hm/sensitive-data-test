@@ -5,17 +5,15 @@
 
 How to manually modify the git history of a branch
 
-1. Search your commit that you want to modify.
+1. Search your commit that you want to modify and copy the SHA (we will call it as `ABC`)
 
-2. Copy the elder sibling SHA (we will call it as `ABC`) of your commit you want to modify.
-
-3. Execute the following command:
+2. Execute the following command:
 
 ```bash
 git rebase -i ABC~
 ```
 
-4. A temp file will open in your terminal. Search for your commit and change the word `pick` to `e` and save the file:
+3. A temp file will open in your terminal. Search for your commit and change the word `pick` to `e` and save the file:
 
 Original:
 
@@ -33,15 +31,9 @@ pick 310154e Update README formatting and add blame
 pick a5f4a0d Add cat-file
 ```
 
-5. Now you are in your commit. Execute the following command
+4. Now you are in your commit. Go to the file you want to modify, do your changes and save it.
 
-```bash
-git commit --amend
-```
-
-6. Then, go to the file you want to modify, do your changes and save it.
-
-7. Execute the following commands:
+5. Execute the following commands:
 
 ```bash
 git add {your_modified_file}
@@ -51,7 +43,7 @@ git rebase --continue
 
 If you have several changes from `pick` to `e`, you will continue to modify commit by commit until you're done.
 
-8. Finally, git push to the branch:
+7. Finally, git push to the branch:
 
 ```bash
 git push --force
