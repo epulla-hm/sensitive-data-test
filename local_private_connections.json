@@ -1,3 +1,5 @@
 [
-	// DO NOT COMMIT THIS FILE AGAIN
+	{
+		"some_leaked_credentials": "some_value"
+	}
 ]
