@@ -38,8 +38,8 @@ pick a5f4a0d Add cat-file
 6. Execute the following commands:
 
 ```bash
-git add {your_modified_file}
 git commit --amend
+git add {your_modified_file}
 git rebase --continue
 ```
 
